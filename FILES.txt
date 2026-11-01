@@ -1,5 +1,5 @@
-index.html — REPLACE: redesigned homepage, no banner.
-site.css — REPLACE: original site CSS plus scoped homepage styles at end.
-README.txt — deployment instructions and limitations.
-FILES.txt — file manifest.
-No image files or site-header.js are included or modified.
+index.html
+consortium.html
+site.css
+README.txt
+FILES.txt
