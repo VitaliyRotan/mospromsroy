@@ -1,5 +1,7 @@
-site-header.js
-header-design.css
-blue-design.css
 README.txt
-FILES.txt
+assets/demolition-preparation.webp
+concrete.html
+demolition.html
+fast-buildings.html
+industrial.html
+service-design.css
