@@ -1,0 +1,13 @@
+/* Scoped continuation of the verified phase-1 service design. No changes to other pages. */
+.mps-phase2 .p2-no-image{background:radial-gradient(ellipse at 85% 35%,#215ba0 0%,transparent 38%),linear-gradient(116deg,#071d40,#123e78)}
+.mps-phase2 .p2-no-image::before{background:linear-gradient(90deg,rgba(4,20,47,.72),rgba(5,29,66,.12))}
+.mps-phase2 .p2-no-image .sp-hero-copy{max-width:860px}
+.mps-phase2 .p2-caption{display:block;font-size:11px;letter-spacing:.09em;text-transform:uppercase;font-weight:750;color:#976f20;margin-bottom:10px}
+.mps-phase2 .p2-image-button{display:block;width:100%;border:0;padding:0;background:transparent;cursor:zoom-in;overflow:hidden;text-align:inherit}
+.mps-phase2 .p2-image-button img{transition:transform .3s;max-width:100%}
+.mps-phase2 .p2-image-button:hover img{transform:scale(1.025)}
+.mps-phase2 .p2-text-card{min-height:205px;display:flex;align-items:center;border-top:4px solid #d8b35b;background:linear-gradient(135deg,#fff,#f3f8fe)}
+.mps-phase2 .p2-text-card .sp-card-body{padding:30px}
+.mps-phase2 .sp-section h2{max-width:920px}
+.p2-modal[hidden]{display:none!important}.p2-modal{position:fixed;z-index:5000;inset:0;background:rgba(2,12,29,.94);padding:50px 18px 20px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}.p2-modal img{max-width:96vw;max-height:calc(100vh - 110px);object-fit:contain}.p2-modal figcaption{font-size:14px;color:#e8edf7}.p2-modal-close{position:absolute;right:18px;top:12px;background:#fff;border:0;border-radius:50%;height:40px;width:40px;font-size:25px;cursor:pointer}
+@media(max-width:670px){.mps-phase2 .p2-text-card{min-height:140px}.mps-phase2 .sp-hero h1{font-size:clamp(34px,9vw,46px)}}

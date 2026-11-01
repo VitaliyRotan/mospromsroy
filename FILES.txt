@@ -1,7 +1,8 @@
+offer-site.html
+phase3-design.css
 README.txt
-assets/demolition-preparation.webp
-concrete.html
-demolition.html
-fast-buildings.html
-industrial.html
-service-design.css
+consortium.html
+join.html
+contact.html
+partners.html
+projects.html

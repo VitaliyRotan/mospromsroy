@@ -1,5 +1,1 @@
-MosPromStroy v20. Four service pages.
-Распаковать содержимое ZIP в локальную папку проекта с заменой совпадающих файлов. GitHub Desktop: проверить Changes, Commit to main, Push origin.
-Содержимое: 4 HTML, service-design.css, assets/demolition-preparation.webp.
-Общий site.css, header, другие страницы, WP-файлы не изменяются.
-Проверка: открыть четыре HTML и проверить мобильный вид; в браузере автоматизированный скриншот не выполнялся.
+МОСПРОМСТРОЙ v22 — третий пакет. Распаковать в текущую локальную папку сайта с сохранением структуры; затем GitHub Desktop: Commit to main → Push origin. Содержимое: consortium.html, partners.html, join.html, projects.html, offer-site.html, contact.html и phase3-design.css. Общий site.css и site-header.js не изменяются. Изображений нет; дополнение к brief передано отдельно. Формы не имитируются; работают телефон и Telegram. Все старые страницы остаются.
