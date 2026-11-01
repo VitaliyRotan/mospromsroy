@@ -1,20 +1,17 @@
-MosPromStroy_02_update  |  v0.0.2  |  2026-11-01
+MosPromStroy_03_update / version 0.0.3
 
-Files to overwrite in GitHub repository ROOT:
-index.html          - REPLACED homepage; 8 service cards and correct links
-site.css            - shared styles + homepage layout
-site-header.js      - shared menu (corrected "Discuss project" link)
-assets/consortium-hero.webp   - existing consortium banner, cropped for HTML nav; NO image generation
-assets/home-river.webp        - existing image from previous update
-assets/drone-scan.webp        - existing image from previous update
-assets/industrial-factory.webp - existing image from previous update
-assets/industrial-hub.webp    - existing image from previous update
-assets/construction-site.webp - existing image from previous update
-assets/laser-scan.webp        - existing image from previous update
+Changed: index.html, site.css, site-header.js
+New: concrete.html, demolition.html, interior-design.html
 
-KEEP prior dream-home.html, fast-buildings.html, scanning.html and other site pages.
-This patch does NOT overwrite internal pages.
-The illustration on "concrete", "demolition", "interior design" and "architectural models" is a temporary relevant/adjacent visual, not a claimed photo of a completed job.
-Those cards link to existing contact.html until individual HTML pages are prepared.
-Shared menu from site-header.js works on pages that already include it.
-Phone tel:+79082248330; Telegram https://t.me/Sunandmoon201.
+New images sourced from uploaded WhatsApp archive (not generated):
+assets/interior-lounge.webp <- FORTOS/WhatsApp archive item 1: WhatsApp Image 2026-10-26 at 16.21.11.jpeg
+assets/interior-dining.webp <- FORTOS/WhatsApp archive item 5: WhatsApp Image 2026-10-26 at 16.21.14 (1).jpeg
+assets/interior-kitchen.webp <- FORTOS/WhatsApp archive item 24: WhatsApp Image 2026-10-26 at 16.21.29.jpeg
+assets/interior-living.webp <- FORTOS/WhatsApp archive item 40: WhatsApp Image 2026-10-26 at 16.21.39 (1).jpeg
+assets/interior-gallery.webp <- FORTOS/WhatsApp archive item 47: WhatsApp Image 2026-10-26 at 16.21.43.jpeg
+assets/interior-exhibition.webp <- FORTOS/WhatsApp archive item 50: WhatsApp Image 2026-10-26 at 16.21.47.jpeg
+assets/building-exterior.webp <- FORTOS/WhatsApp archive item 58: WhatsApp Image 2026-10-26 at 16.21.53.jpeg
+assets/interior-room.webp <- FORTOS/WhatsApp archive item 82: WhatsApp Image 2026-10-26 at 16.22.14.jpeg
+
+Existing images re-included in assets/ for self-contained patch. Source: earlier MosPromStroy update.
+All photo claims about real completed work require verification before publishing.
