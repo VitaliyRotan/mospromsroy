@@ -1,0 +1,8 @@
+IMAGE FILE | SOURCE FILE | USE
+assets/home-river.webp | роскошный_дом_у_лесного_пруда_на_закате.png | source in /mnt/data; optimized WebP
+assets/home-archive.webp | dom_dev01-2.jpg | source in /mnt/data; optimized WebP
+assets/industrial-factory.webp | современный_завод_на_закате.png | source in /mnt/data; optimized WebP
+assets/industrial-hub.webp | современный_логистический_хаб_на_закате.png | source in /mnt/data; optimized WebP
+assets/construction-site.webp | золотой_час_на_стройке_мегаполиса.png | source in /mnt/data; optimized WebP
+assets/drone-scan.webp | беспилотный_цифровой_двойник_логистического_компле.png | source in /mnt/data; optimized WebP
+assets/laser-scan.webp | лазерное_сканирование_промышленного_ангара.png | source in /mnt/data; optimized WebP
