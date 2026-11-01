@@ -1,8 +1,20 @@
-IMAGE FILE | SOURCE FILE | USE
-assets/home-river.webp | роскошный_дом_у_лесного_пруда_на_закате.png | source in /mnt/data; optimized WebP
-assets/home-archive.webp | dom_dev01-2.jpg | source in /mnt/data; optimized WebP
-assets/industrial-factory.webp | современный_завод_на_закате.png | source in /mnt/data; optimized WebP
-assets/industrial-hub.webp | современный_логистический_хаб_на_закате.png | source in /mnt/data; optimized WebP
-assets/construction-site.webp | золотой_час_на_стройке_мегаполиса.png | source in /mnt/data; optimized WebP
-assets/drone-scan.webp | беспилотный_цифровой_двойник_логистического_компле.png | source in /mnt/data; optimized WebP
-assets/laser-scan.webp | лазерное_сканирование_промышленного_ангара.png | source in /mnt/data; optimized WebP
+MosPromStroy_02_update  |  v0.0.2  |  2026-11-01
+
+Files to overwrite in GitHub repository ROOT:
+index.html          - REPLACED homepage; 8 service cards and correct links
+site.css            - shared styles + homepage layout
+site-header.js      - shared menu (corrected "Discuss project" link)
+assets/consortium-hero.webp   - existing consortium banner, cropped for HTML nav; NO image generation
+assets/home-river.webp        - existing image from previous update
+assets/drone-scan.webp        - existing image from previous update
+assets/industrial-factory.webp - existing image from previous update
+assets/industrial-hub.webp    - existing image from previous update
+assets/construction-site.webp - existing image from previous update
+assets/laser-scan.webp        - existing image from previous update
+
+KEEP prior dream-home.html, fast-buildings.html, scanning.html and other site pages.
+This patch does NOT overwrite internal pages.
+The illustration on "concrete", "demolition", "interior design" and "architectural models" is a temporary relevant/adjacent visual, not a claimed photo of a completed job.
+Those cards link to existing contact.html until individual HTML pages are prepared.
+Shared menu from site-header.js works on pages that already include it.
+Phone tel:+79082248330; Telegram https://t.me/Sunandmoon201.
