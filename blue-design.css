@@ -1,0 +1,44 @@
+/* MosPromStroy v19 | Uniform blue palette across every existing page.
+   Loaded AFTER site.css, home-design.css, and header-design.css by site-header.js. */
+:root{
+ --ink:#102B4C;--navy:#081F46;--muted:#526987;--border:#D5E2F0;
+ --cloud:#F0F6FD;--paper:#FFFFFF;--gold:#F4C95D;
+ --mps-blue:#0A2D64;--mps-deep:#071D40;--mps-light:#EFF6FF;
+}
+body{background:#FFFFFF;color:#102B4C}
+.site-nav,body[data-page="home"] .site-nav{background:#071D40!important;color:#fff;box-shadow:0 5px 23px rgba(7,29,64,.15)}
+.site-nav .nav-links a{color:#F4F8FF}
+.site-nav .nav-links a:hover,.site-nav .nav-links a[aria-current="page"]{color:#F4C95D}
+.site-nav .brand small{color:#CBDDF5}
+.site-nav .tiny-btn.gold{background:#F4C95D;color:#0B2448}
+.footer{background:#071D40!important;color:#D2E2F5}
+.footer a{color:#fff}
+/* Section color system common to secondary pages */
+.page-head{background:linear-gradient(120deg,#071D40 0%,#0D3976 100%)!important}
+.page-head p,.story-hero p{color:#DCEAFF}
+.story-hero,.home-short,.home-feature{background:#0A2D64!important}
+.discuss,.cta-panel{background:#0A2D64!important}
+.copybox{background:#0A2D64}
+.resource-notice,.highlight-panel{background:#EFF6FF;border-color:#CBDCF0;color:#1C426C}
+.tag{background:#F5F9FF;border-color:#D2E0F2;color:#345477}
+.card,.feature-columns article,.process-grid article,.entry-grid a,.house-gallery figure{border-color:#D5E2F0}
+.card p,.process-grid p,.entry-grid p,.subtitle,.mini-note,.notice{color:#526987}
+.label-overline,.service-number,.service-more,.inline-cta{color:#A47B1B}
+/* Home (v17) specific: remove green and teal in all surfaces and overlays */
+body[data-page="home"]{background:#F6F9FF!important;color:#102B4C!important}
+body[data-page="home"] .mps-hero{background:#081F46!important}
+body[data-page="home"] .mps-hero-shade{background:linear-gradient(90deg,rgba(4,20,52,.97) 0%,rgba(7,35,76,.88) 36%,rgba(9,50,101,.36) 76%,rgba(7,33,72,.18) 100%),linear-gradient(0deg,rgba(4,22,53,.56),transparent 50%)!important}
+body[data-page="home"] .mps-intro,body[data-page="home"] .mps-feature{background:#FFFFFF!important}
+body[data-page="home"] .mps-directions,body[data-page="home"] .mps-path{background:#EFF5FE!important}
+body[data-page="home"] .mps-home h2,body[data-page="home"] .mps-steps h3{color:#102B4C!important}
+body[data-page="home"] .mps-intro-text p,body[data-page="home"] .mps-feature-copy>p:not(.mps-overline){color:#3C587B!important}
+body[data-page="home"] .mps-section-head>p,body[data-page="home"] .mps-steps p,body[data-page="home"] .mps-image-note{color:#587092!important}
+body[data-page="home"] .mps-text-link{color:#16457E!important}
+body[data-page="home"] .mps-service{background:#133F79!important}
+body[data-page="home"] .mps-service-scrim{background:linear-gradient(0deg,rgba(4,20,49,.97) 0%,rgba(5,28,66,.64) 42%,rgba(5,26,58,.04) 85%)!important}
+body[data-page="home"] .mps-feature-picture span{background:rgba(7,29,64,.85)!important}
+body[data-page="home"] .mps-steps>div{background:#FFFFFF}
+body[data-page="home"] .mps-final{background:linear-gradient(120deg,#071D40,#0A3572)!important}
+body[data-page="home"] .mps-final p:not(.mps-overline){color:#D6E5F9!important}
+body[data-page="home"] .mps-button-gold{background:#F4C95D!important;color:#0C2B51!important}
+@media(max-width:650px){body[data-page="home"] .mps-hero-shade{background:linear-gradient(90deg,rgba(5,23,59,.94),rgba(8,37,83,.68)),linear-gradient(0deg,rgba(4,23,59,.72),transparent)!important}}

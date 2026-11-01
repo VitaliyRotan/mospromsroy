@@ -1,2 +1,15 @@
-MosPromStroy v0.0.13
-Copy index.html, consortium.html, site.css into repository ROOT (alongside site-header.js). This replaces both preceding patches 11 and 12. No assets or WP files deleted. assets/ must exist separately. Commit and push after reviewing Changes. GitHub Pages may cache CSS; hard reload.
+МОСПРОМСТРОЙ — обновление v19: единая синяя палитра
+
+Вместо прежнего зеленовато-графитового оттенка используется:
+- глубокий синий #071D40 (шапка, подвал)
+- насыщенный синий #0A2D64 (темные секции)
+- светло-голубой #EFF5FE (светлые секции)
+- белый #FFFFFF (основные поверхности)
+- теплый желтый #F4C95D (кнопки и акценты)
+
+Распакуйте содержимое ZIP в локальную папку сайта, сохраняя расположение файлов. Затем загрузите изменения через GitHub Desktop: Commit to main → Push origin.
+
+Файлы: site-header.js, header-design.css, blue-design.css.
+Существующие HTML, изображения и site.css НЕ заменяются и НЕ удаляются.
+
+Цветовой файл blue-design.css подгружается автоматически общим site-header.js на каждой странице, где есть этот скрипт. Для страниц без общего скрипта эффект не применяется.

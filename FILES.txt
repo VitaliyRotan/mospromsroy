@@ -1,5 +1,5 @@
-index.html
-consortium.html
-site.css
+site-header.js
+header-design.css
+blue-design.css
 README.txt
 FILES.txt
