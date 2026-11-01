@@ -1,6 +1,6 @@
-MosPromStroy v0.0.6
-NEW: consortium.html, contact.html, offer-site.html
-UPDATED: site-header.js, site.css
-ASSETS: assets/construction-site.webp, assets/industrial-hub.webp, assets/industrial-factory.webp, assets/home-river.webp
-All image assets reused from MosPromStroy_05_update. No generation.
-The source text from Plan Alyansa KB Rossii is cited on consortium.html as an inspiration; it is not evidence of affiliation.
+MosPromStroy_07_update
+HTML: dream-home.html, concrete.html, demolition.html, models.html, consortium.html
+Shared: site.css, site-header.js
+Photos: home-river.webp, home-archive.webp, house-archive-01.webp...house-archive-07.webp
+Sources: earlier conversation images and Dom_tvoey_mechty original archive. No new images generated.
+NOTE: do not copy an entire extra folder: overwrite contents at repository root.

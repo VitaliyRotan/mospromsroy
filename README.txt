@@ -1,1 +1,1 @@
-MosPromStroy v0.0.6 — incremental update. Extract contents to repository ROOT (not a nested directory), overwrite shared site-header.js and site.css; retain all previous pages and assets. New consortium.html now linked in common menu. contact.html replaces demo; it contains tel/Telegram links, not fake forms. No changes to index.html in this update.
+Version 0.0.7. Overwrite files in existing GitHub repository root. Photos for demolition and concrete are intentionally omitted until actual relevant assets are provided. Old assets remain untouched. No backend form changes.
