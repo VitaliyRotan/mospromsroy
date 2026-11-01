@@ -1,12 +1,5 @@
-MosPromStroy_10_update — partial image update
-
-dream-home.html — replaces existing dream-home.html
-assets/home-winter-light.webp — user-provided winter-house image
-
-Existing assets referenced by this HTML remain unchanged:
-assets/home-river.webp
-assets/house-archive-01.webp
-assets/house-archive-03.webp
-assets/house-archive-05.webp
-
-Other 5 new images shown in the conversation were not available as individual source files in the container; they have NOT been silently substituted.
+index.html — REPLACE: redesigned homepage, no banner.
+site.css — REPLACE: original site CSS plus scoped homepage styles at end.
+README.txt — deployment instructions and limitations.
+FILES.txt — file manifest.
+No image files or site-header.js are included or modified.
