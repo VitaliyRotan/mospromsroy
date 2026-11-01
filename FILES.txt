@@ -1,13 +1,5 @@
-README.txt
 concrete.html
-demolition.html
-directions.html
-dream-home.html
-fast-buildings.html
-index.html
-industrial.html
-interior-design.html
-models.html
-partners.html
-projects.html
-scanning.html
+assets/concrete-precast-products.webp
+assets/concrete-foundation-pour.webp
+README.txt
+FILES.txt
