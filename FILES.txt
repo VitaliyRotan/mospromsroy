@@ -1,17 +1,15 @@
-MosPromStroy_03_update / version 0.0.3
+MosPromStroy_04_update
+NEW: directions.html, models.html, projects.html
+UPDATED: site-header.js, site.css, index.html (models card link)
+ASSETS reused from previous conversation (existing originals; no image generation):
+assets/home-river.webp
+assets/industrial-factory.webp
+assets/industrial-hub.webp
+assets/drone-scan.webp
+assets/laser-scan.webp
+assets/construction-site.webp
+assets/building-exterior.webp
+assets/interior-exhibition.webp
+assets/interior-lounge.webp
 
-Changed: index.html, site.css, site-header.js
-New: concrete.html, demolition.html, interior-design.html
-
-New images sourced from uploaded WhatsApp archive (not generated):
-assets/interior-lounge.webp <- FORTOS/WhatsApp archive item 1: WhatsApp Image 2026-10-26 at 16.21.11.jpeg
-assets/interior-dining.webp <- FORTOS/WhatsApp archive item 5: WhatsApp Image 2026-10-26 at 16.21.14 (1).jpeg
-assets/interior-kitchen.webp <- FORTOS/WhatsApp archive item 24: WhatsApp Image 2026-10-26 at 16.21.29.jpeg
-assets/interior-living.webp <- FORTOS/WhatsApp archive item 40: WhatsApp Image 2026-10-26 at 16.21.39 (1).jpeg
-assets/interior-gallery.webp <- FORTOS/WhatsApp archive item 47: WhatsApp Image 2026-10-26 at 16.21.43.jpeg
-assets/interior-exhibition.webp <- FORTOS/WhatsApp archive item 50: WhatsApp Image 2026-10-26 at 16.21.47.jpeg
-assets/building-exterior.webp <- FORTOS/WhatsApp archive item 58: WhatsApp Image 2026-10-26 at 16.21.53.jpeg
-assets/interior-room.webp <- FORTOS/WhatsApp archive item 82: WhatsApp Image 2026-10-26 at 16.22.14.jpeg
-
-Existing images re-included in assets/ for self-contained patch. Source: earlier MosPromStroy update.
-All photo claims about real completed work require verification before publishing.
+Deploy contents into repository root. Do not delete other pages.
