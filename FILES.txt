@@ -1,6 +1,12 @@
-MosPromStroy_07_update
-HTML: dream-home.html, concrete.html, demolition.html, models.html, consortium.html
-Shared: site.css, site-header.js
-Photos: home-river.webp, home-archive.webp, house-archive-01.webp...house-archive-07.webp
-Sources: earlier conversation images and Dom_tvoey_mechty original archive. No new images generated.
-NOTE: do not copy an entire extra folder: overwrite contents at repository root.
+MosPromStroy_10_update — partial image update
+
+dream-home.html — replaces existing dream-home.html
+assets/home-winter-light.webp — user-provided winter-house image
+
+Existing assets referenced by this HTML remain unchanged:
+assets/home-river.webp
+assets/house-archive-01.webp
+assets/house-archive-03.webp
+assets/house-archive-05.webp
+
+Other 5 new images shown in the conversation were not available as individual source files in the container; they have NOT been silently substituted.

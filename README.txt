@@ -1,1 +1,6 @@
-Version 0.0.7. Overwrite files in existing GitHub repository root. Photos for demolition and concrete are intentionally omitted until actual relevant assets are provided. Old assets remain untouched. No backend form changes.
+MosPromStroy v0.0.11
+Only index.html changed.
+Removed duplicate dark text block immediately under the main consortium banner.
+Preserved hero image, 8 service cards, navigation links, footer and shared assets.
+Copy index.html to repository root, replacing existing file.
+No images generated or changed.
