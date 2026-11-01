@@ -1,15 +1,6 @@
-MosPromStroy_04_update
-NEW: directions.html, models.html, projects.html
-UPDATED: site-header.js, site.css, index.html (models card link)
-ASSETS reused from previous conversation (existing originals; no image generation):
-assets/home-river.webp
-assets/industrial-factory.webp
-assets/industrial-hub.webp
-assets/drone-scan.webp
-assets/laser-scan.webp
-assets/construction-site.webp
-assets/building-exterior.webp
-assets/interior-exhibition.webp
-assets/interior-lounge.webp
-
-Deploy contents into repository root. Do not delete other pages.
+MosPromStroy v0.0.6
+NEW: consortium.html, contact.html, offer-site.html
+UPDATED: site-header.js, site.css
+ASSETS: assets/construction-site.webp, assets/industrial-hub.webp, assets/industrial-factory.webp, assets/home-river.webp
+All image assets reused from MosPromStroy_05_update. No generation.
+The source text from Plan Alyansa KB Rossii is cited on consortium.html as an inspiration; it is not evidence of affiliation.
