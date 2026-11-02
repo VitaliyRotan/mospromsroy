@@ -1,7 +1,4 @@
+scanning.html
+scanning-design.css
 README.txt
-assets/14_home_courtyard_residence.webp
-assets/15_home_panoramic_evening.webp
-assets/16_model_urban_quarter.webp
-assets/17_model_industrial_park_concept.webp
-dream-home.html
-models.html
+FILES.txt
