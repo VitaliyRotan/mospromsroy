@@ -1,5 +1,1 @@
-Аудит предоставленного архива:
-Применены: industrial-workshop-frame, industrial-engineering-team, industrial-plant-expansion, fast-steel-frame, fast-roof-panels, fast-finished-hangar, concrete-batching-plant, concrete-mixer-delivery, demolition-excavator-active + ранее присланное demolition-preparation.
-Исключены из публикации: concrete-pouring-foundation_variant-1_wrong-topic, concrete-pouring-foundation_variant-2_wrong-topic (показаны железобетонные изделия, а не заливка); home-courtyard-residence_variant-1_wrong-topic, variant-2_wrong-topic (бетонные работы, не дома); demolition-debris-sorting_wrong-variant (активный снос, не сортировка); demolition-cleared-site_wrong-variant (действующая стройплощадка, не очищенная).
-Неиспользованные исходники originals/ и reference_collages/ намеренно не загружаются.
-Нужно дополнительно: уникальная заливка фундамента, сортировка стройотходов, очищенная площадка и архитектура жилого дома с двором.
+Проверка: ссылки на изображения в 7 HTML доступны в ZIP либо в ранее переданной папке assets. Отдельные макеты из сообщений чата в виде исходных файлов недоступны для включения. Стили главной/шапки не переписывались.

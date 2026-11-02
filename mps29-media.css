@@ -1,0 +1,4 @@
+/* Engineering photo on the first screen; isolated from global CSS. */
+.mps-phase2 .p2-hero .mps29-engineering-photo{display:block;width:100%;height:auto;max-height:570px;object-fit:cover;margin:28px auto 0;border-radius:20px;box-shadow:0 18px 45px rgba(7,29,64,.13)}
+@media(min-width:1000px){.mps-phase2 .p2-hero .mps29-engineering-photo{max-width:1180px}}
+@media(max-width:600px){.mps-phase2 .p2-hero .mps29-engineering-photo{border-radius:12px;margin-top:18px}}
