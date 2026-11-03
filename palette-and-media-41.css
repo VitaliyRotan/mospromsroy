@@ -1,0 +1,17 @@
+/* MPS update 41. Colors and consistent cards. */
+:root{--mps41-pistachio:#C4D79B;--mps41-pistachio-hover:#D5E5B3;--mps41-navy:#102D52;--mps41-softblue:#4F79B1;--mps41-softblue-hover:#608AC0}
+/* Primary actions: pistachio */
+a.mps-button-gold,a.btn:not(.ghost),a.c3-btn:not(.c3-outline),a.m39-primary,a.tiny-btn.gold,a.sp-btn:not(.ghost),a.p2-btn:not(.ghost),a.mps41-primary{background:#C4D79B!important;color:#102D52!important;border-color:#C4D79B!important;box-shadow:none!important}
+a.mps-button-gold:hover,a.btn:not(.ghost):hover,a.c3-btn:not(.c3-outline):hover,a.m39-primary:hover,a.tiny-btn.gold:hover,a.sp-btn:not(.ghost):hover,a.p2-btn:not(.ghost):hover{background:#D5E5B3!important;border-color:#D5E5B3!important;color:#102D52!important}
+/* Secondary participant and project introduction buttons: softened clear blue, not cyan. */
+a.mps41-soft,a.mps-button-outline.mps41-soft,a.c3-btn.mps41-soft,a.btn.mps41-soft{background:#4F79B1!important;color:#fff!important;border:1px solid #7194BF!important;box-shadow:none!important}
+a.mps41-soft:hover{background:#608AC0!important;color:#fff!important;border-color:#89A6CB!important}
+/* Preserve card image alignment */
+.sp-grid .sp-card>img{display:block;width:100%;height:248px;object-fit:cover}
+.scan-deliverables>article{overflow:hidden}
+.scan-deliverables .mps41-scan-illustration{display:block;width:100%;height:175px;object-fit:cover;border-radius:12px;margin:0 0 16px}
+.mps41-interiors{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;margin-top:25px;max-width:100%}
+.mps41-interior-card{background:#fff;border:1px solid #d8e4f5;border-radius:16px;overflow:hidden}
+.mps41-interior-card img{display:block;width:100%;max-height:440px;object-fit:cover}
+.mps41-interior-caption{padding:18px 22px}.mps41-interior-caption h3{margin:0 0 8px;color:#102d52}.mps41-interior-caption p{margin:0;color:#526b88}
+@media(max-width:700px){.sp-grid .sp-card>img{height:190px}.scan-deliverables .mps41-scan-illustration{height:160px}}
