@@ -1,0 +1,58 @@
+/* МосПромСтрой — единая палитра CTA, обновление №44.
+   Базовое состояние и hover контролируются одинаково на всех страницах. */
+:root{--mps-cta-pistachio:#C4D79B;--mps-cta-pistachio-hover:#D5E5B3;--mps-cta-navy:#102D52;--mps-cta-blue:#4F79B1;--mps-cta-blue-hover:#608AC0}
+/* Кнопки конкретного проекта / заказа. Существующие обводки остаются обводками. */
+a.mps-button-gold,
+a.mps-button.mps-button-gold,
+a.btn:not(.ghost),
+a.c3-btn:not(.c3-outline),
+a.sp-button:not(.sp-button-outline),
+a.m38-button:not(.m38-button-alt),
+a.m39-primary,
+a.m40-call,
+a.tiny-btn.gold,
+a.p2-btn:not(.ghost),
+a.sp-btn:not(.ghost),
+a.mps41-primary,
+a.mps44-project {
+  background-color:var(--mps-cta-pistachio)!important;
+  background-image:none!important;
+  color:var(--mps-cta-navy)!important;
+  border-color:var(--mps-cta-pistachio)!important;
+  box-shadow:none!important;
+}
+a.mps-button-gold:hover,
+a.mps-button.mps-button-gold:hover,
+a.btn:not(.ghost):hover,
+a.c3-btn:not(.c3-outline):hover,
+a.sp-button:not(.sp-button-outline):hover,
+a.m38-button:not(.m38-button-alt):hover,
+a.m39-primary:hover,
+a.m40-call:hover,
+a.tiny-btn.gold:hover,
+a.p2-btn:not(.ghost):hover,
+a.sp-btn:not(.ghost):hover,
+a.mps41-primary:hover,
+a.mps44-project:hover {
+  background-color:var(--mps-cta-pistachio-hover)!important;
+  background-image:none!important;
+  color:var(--mps-cta-navy)!important;
+  border-color:var(--mps-cta-pistachio-hover)!important;
+}
+/* Только CTA представления компании / проекта и знакомства с партнёрами. */
+a.mps44-company,a.mps41-soft.mps44-company,
+a.mps44-company:link,a.mps44-company:visited {
+  background-color:var(--mps-cta-blue)!important;
+  background-image:none!important;
+  color:#fff!important;
+  border-color:var(--mps-cta-blue)!important;
+  box-shadow:none!important;
+}
+a.mps44-company:hover,a.mps44-company:focus-visible {
+  background-color:var(--mps-cta-blue-hover)!important;
+  background-image:none!important;
+  color:#fff!important;
+  border-color:var(--mps-cta-blue-hover)!important;
+}
+/* Фокус по клавиатуре */
+a.mps44-company:focus-visible,a.mps44-project:focus-visible{outline:3px solid #7391c9;outline-offset:3px}
