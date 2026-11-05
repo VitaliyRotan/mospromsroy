@@ -1,0 +1,46 @@
+/* МОСПРОМСТРОЙ №45 — ЯВНЫЕ ЦВЕТА КНОПОК, включая обычное состояние. */
+:root { --mps-cta-pistachio:#C4D79B; --mps-cta-pistachio-hover:#D5E5B3; --mps-cta-blue:#4F79B1; --mps-cta-blue-hover:#608AC0; --mps-cta-ink:#102D52; }
+/* ОСНОВНАЯ: фисташковая заливка без наведения */
+a.mps-button.mps-button-gold,
+a.mps-button-gold,
+a.btn:not(.ghost),
+a.sp-button:not(.sp-button-outline),
+a.c3-btn:not(.c3-outline),
+a.m38-button:not(.m38-button-alt),
+a.m39-primary, a.m40-call, a.tiny-btn.gold,
+a.p2-btn:not(.ghost), a.sp-btn:not(.ghost),
+a.mps41-primary, a.mps44-project,
+a.mps44-project:link, a.mps44-project:visited {
+  background:#C4D79B !important; background-image:none !important;
+  border-color:#C4D79B !important; color:#102D52 !important;
+}
+/* НАВЕДЕНИЕ — лишь немного светлее, не меняет цветовую семью */
+a.mps-button.mps-button-gold:hover,
+a.mps-button-gold:hover,
+a.btn:not(.ghost):hover,
+a.sp-button:not(.sp-button-outline):hover,
+a.c3-btn:not(.c3-outline):hover,
+a.m38-button:not(.m38-button-alt):hover,
+a.m39-primary:hover, a.m40-call:hover, a.tiny-btn.gold:hover,
+a.p2-btn:not(.ghost):hover, a.sp-btn:not(.ghost):hover,
+a.mps41-primary:hover, a.mps44-project:hover {
+  background:#D5E5B3 !important; background-image:none !important;
+  border-color:#D5E5B3 !important; color:#102D52 !important;
+}
+/* ПРЕДСТАВИТЬ КОМПАНИЮ/ПРОЕКТ — синий, в том числе контурная кнопка на главной */
+a.mps-button.mps-button-outline[href="join.html"],
+a.mps-button.mps-button-outline[href$="/join.html"],
+a.mps41-soft, a.mps44-company,
+a.mps44-company:link, a.mps44-company:visited {
+  background:#4F79B1 !important; background-image:none !important;
+  border-color:#4F79B1 !important; color:#fff !important;
+}
+a.mps-button.mps-button-outline[href="join.html"]:hover,
+a.mps-button.mps-button-outline[href$="/join.html"]:hover,
+a.mps41-soft:hover, a.mps44-company:hover {
+  background:#608AC0 !important; background-image:none !important;
+  border-color:#608AC0 !important; color:#fff !important;
+}
+/* Preserve nested arrow/text color. */
+a.mps-button.mps-button-gold *, a.mps44-project * {color:inherit !important;}
+a.mps-button.mps-button-outline[href="join.html"] * ,a.mps44-company * {color:#fff !important;}
