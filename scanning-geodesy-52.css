@@ -1,0 +1,5 @@
+/* Партнёрские инженерно-геодезические услуги №52 */
+.m52-intro .sp-wrap{max-width:1080px}.m52-intro p{font-size:18px;line-height:1.72;color:#465c77}.m52-intro .m52-lead{font-size:21px;color:#173b63}
+.m52-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.m52-service{border:1px solid #d9e5f0;background:white;border-radius:18px;overflow:hidden}.m52-service img{width:100%;height:245px;object-fit:cover;display:block}.m52-service-copy{padding:28px}.m52-service h3{font-size:24px;margin:0 0 18px;color:#0c3159}.m52-service li{font-size:16px;line-height:1.6;padding-bottom:9px;color:#39536f}.m52-service ul{padding-left:20px}.m52-service p{font-size:16px;line-height:1.6;color:#39536f}
+.m52-mini-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.m52-mini-grid article{padding:24px;background:#f5f9fc;border:1px solid #dce7f1;border-radius:14px}.m52-mini-grid h3{font-size:20px;line-height:1.3;color:#0c3159;margin:0 0 10px}.m52-mini-grid p{font-size:16px;line-height:1.55;color:#425a76;margin:0}
+@media(max-width:860px){.m52-grid,.m52-mini-grid{grid-template-columns:1fr}.m52-service img{height:220px}}
