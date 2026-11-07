@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mospromstroy.ru/sitemap.xml
