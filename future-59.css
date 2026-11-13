@@ -1,0 +1,34 @@
+/* MosPromStroy #59 — single-page redesign, author slides 01-04 preserved */
+.m57-page{background:#f6f8fc;color:#102d51}
+.m59-wrap{width:min(1220px,calc(100% - 60px));margin-inline:auto}
+.m59-hero{background:#0a2345;color:#fff;padding:54px 0 58px;position:relative;overflow:hidden}
+.m59-hero:after{content:"";position:absolute;right:-9%;bottom:-155px;width:500px;height:500px;border:1px solid rgba(212,180,111,.16);border-radius:50%;pointer-events:none}
+.m59-breadcrumb{color:#a9bbcf;font-size:13px;margin-bottom:43px}.m59-breadcrumb a{color:#d9e7f3;text-decoration:none}.m59-breadcrumb a:hover{text-decoration:underline}
+.m59-kicker{color:#c6a363;font-size:12px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;margin:0 0 18px}
+.m59-hero h1{color:#fff;font-weight:800;font-size:clamp(38px,5vw,69px);line-height:1.12;letter-spacing:-.035em;margin:0 0 19px;max-width:1030px}
+.m59-subtitle{font-size:clamp(17px,2vw,23px);line-height:1.55;color:#d7e3ee;margin:0}
+.m59-slide-section{padding:30px 0 42px;background:linear-gradient(180deg,#f2f6fa,#fff)}
+.m59-slide{margin:0 0 25px;background:#fff;border:1px solid #e4eaf0;box-shadow:0 14px 42px rgba(12,40,73,.08);border-radius:12px;overflow:hidden}
+.m59-slide:last-child{margin-bottom:0}.m59-slide a{display:block;line-height:0}.m59-slide a:focus-visible{outline:4px solid #c6a363;outline-offset:-4px}
+.m59-slide img{display:block;width:100%;height:auto;aspect-ratio:1672/941;object-fit:contain}
+.m59-person{background:#102b50;color:#fff;padding:76px 0}
+.m59-person-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:9%;align-items:center}
+.m59-person h2{color:#fff;font-size:clamp(39px,4.6vw,66px);line-height:1.08;margin:0 0 15px}
+.m59-person-name{color:#e0c78c;font-size:clamp(22px,2.4vw,30px);font-weight:700;margin:0}
+.m59-person-details{border-left:2px solid #bda069;padding-left:34px}
+.m59-person-details p{font-size:20px;line-height:1.7;color:#e0eafa;margin:0 0 14px}
+.m59-person-details p:last-child{margin-bottom:0}
+.m59-project{background:#f4f7fb;padding:86px 0 98px;color:#102d51}
+.m59-project h2{font-size:clamp(45px,5.3vw,74px);letter-spacing:-.04em;line-height:1.07;color:#0d315a;margin:0 0 11px}
+.m59-project-deck{font-weight:700;color:#a77b2f;font-size:18px;margin:0 0 26px}
+.m59-project-intro{font-size:clamp(18px,2.2vw,25px);line-height:1.58;max-width:1040px;margin:0 0 32px;color:#244667}
+.m59-project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}
+.m59-project-card{background:#fff;border-radius:12px;padding:29px 31px;border:1px solid #dbe5ed;box-shadow:0 8px 22px rgba(10,41,74,.04)}
+.m59-card-kicker{font-size:12px;letter-spacing:.12em;font-weight:800;color:#aa854c;margin:0 0 11px}
+.m59-project-card h3{font-size:clamp(20px,2vw,27px);line-height:1.2;color:#12345a;margin:0 0 13px}
+.m59-project-card p:last-child{font-size:16px;line-height:1.68;color:#405b77;margin:0}
+.m59-project-footer{border-top:1px solid #cfdae5;margin-top:32px;padding-top:28px;display:flex;justify-content:space-between;gap:20px;align-items:center}
+.m59-project-footer p{font-size:23px;font-weight:750;color:#113157;margin:0}
+.m59-cta{display:inline-flex;align-items:center;background:#c4d79b;color:#0c2c50!important;text-decoration:none;padding:18px 24px;font-weight:800;border-radius:8px;white-space:nowrap;transition:background .2s}
+.m59-cta:hover{background:#b5cd84}
+@media(max-width:800px){.m59-wrap{width:calc(100% - 32px)}.m59-hero{padding:38px 0 42px}.m59-breadcrumb{margin-bottom:27px}.m59-slide-section{padding:16px 0 28px}.m59-slide{margin-bottom:15px;border-radius:7px}.m59-person{padding:53px 0}.m59-person-grid{grid-template-columns:1fr;gap:28px}.m59-person-details{padding-left:18px}.m59-person-details p{font-size:17px}.m59-project{padding:55px 0 67px}.m59-project-grid{grid-template-columns:1fr;gap:12px}.m59-project-card{padding:22px}.m59-project-footer{align-items:stretch;flex-direction:column}.m59-cta{white-space:normal;justify-content:center;text-align:center}}
